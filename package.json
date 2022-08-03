@@ -1,0 +1,16 @@
+{
+  "name": "@woxels/assets",
+  "version": "0.1.8",
+  "description": "Assets for WebGPU projects",
+  "main": "src/main.js",
+  "author": "Michelangelo Webb",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

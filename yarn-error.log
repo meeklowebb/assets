@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js publish
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Calibre2\;C:\Users\vg\.cargo\bin;C:\Users\vg\AppData\Local\Microsoft\WindowsApps;;C:\Users\vg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vg\AppData\Roaming\npm;C:\Users\vg\AppData\Local\Yarn\bin;C:\Users\vg\AppData\Local\Programs\Microsoft VS Code Insiders\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  18.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/-/user/org.couchdb.user:meeklowebb: failed to authenticate: Could not authenticate meeklowebb: bad password
+      at params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "assets",
+    "version": "0.1.1",
+    "description": "Assets for WebGPU projects",
+    "main": "main.js",
+    "author": "Michelangelo Webb",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
