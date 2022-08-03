@@ -1,4 +1,4 @@
-import triangle from "./triangle.js";
+import triangle from "./tri.js";
 export {
     triangle
 }
